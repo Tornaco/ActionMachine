@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dev.nick.app.automachine.MainActivity">
+
+    <item
+        android:id="@+id/cmd_home"
+        android:orderInCategory="100"
+        android:title="@string/home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cmd_back"
+        android:orderInCategory="100"
+        android:title="@string/back"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cmd_sleep"
+        android:orderInCategory="100"
+        android:title="@string/sleep"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cmd_tap"
+        android:orderInCategory="100"
+        android:title="@string/tap"
+        app:showAsAction="never" />
+
+</menu>
